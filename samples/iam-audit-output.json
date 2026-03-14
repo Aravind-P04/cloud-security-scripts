@@ -1,0 +1,22 @@
+[
+  {
+    "user": "john.smith",
+    "findings": [
+      "NO_MFA — CIS 1.10",
+      "STALE_KEY_134d — CIS 1.14"
+    ]
+  },
+  {
+    "user": "svc-monitoring",
+    "findings": [
+      "NO_MFA — CIS 1.10"
+    ]
+  },
+  {
+    "user": "jane.doe",
+    "findings": [
+      "INACTIVE_97d — CIS 1.4",
+      "STALE_KEY_112d — CIS 1.14"
+    ]
+  }
+]
