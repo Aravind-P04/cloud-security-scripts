@@ -13,7 +13,7 @@ Not a full security platform — just practical scripts I use and reuse.
 |---|---|---|
 | iam-audit.py | Users without MFA, access keys older than 90 days | CIS 1.4, 1.14 |
 | sg-checker.py | Security groups with 0.0.0.0/0 inbound rules | CIS 5.2, 5.3 |
-| cloudtrail-parser.py | Root account usage, failed API calls | CIS 3.1, 3.3 |
+| cloudtrail-parser.py | Root account usage, failed API calls, console logins without MFA | CIS 3.1, 3.3 |
 
 ### Azure
 | Script | What it checks | CIS Control |
